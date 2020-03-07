@@ -71,19 +71,65 @@
 .ba-text-justify {
   text-align: justify; }
 
-.ba-menu {
-  display: flex;
-  align-items: center;
-  list-style: none; }
+.vc-header {
+  background-color: #daac00; }
+  .vc-header .container {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+    padding: 0 50px; }
+  .vc-header .vc-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0; }
+    .vc-header .vc-menu__link {
+      text-decoration: none;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.823125rem;
+      color: white; }
 
-.ba-menu__link {
-  color: inherit;
-  text-decoration: none; }
+.header-form {
+  display: flex; }
+  .header-form input {
+    height: 50px;
+    background-color: #fcc302;
+    border: none;
+    color: white;
+    font-size: 1.301875rem;
+    padding-left: 15px; }
+    .header-form input::placeholder {
+      color: white;
+      font-size: 1.301875rem;
+      padding-left: 15px; }
+  .header-form button {
+    height: 50px;
+    width: 70px;
+    background-color: #00bec9;
+    border: none; }
 
-.btn {
-  background: pink;
-  min-width: 100px;
-  padding: 0 1em; }
-  .btn:hover {
-    background-color: pink;
-    border-color: #ff748c; }
+.vc-menu__item + .vc-menu__item {
+  padding-left: 30px; }
+
+.vc-banner {
+  background-color: #fcc302; }
+  .vc-banner .container {
+    display: flex;
+    padding-top: 90px; }
+  .vc-banner-wrapper {
+    width: 60%;
+    float: left; }
+  .vc-banner-title {
+    font-size: 4.166875rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400; }
+  .vc-banner-paragraph {
+    font-size: 1.823125rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400; }

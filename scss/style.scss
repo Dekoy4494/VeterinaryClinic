@@ -1,20 +1,94 @@
-.ba-menu{
+// ======= HEADER =======//
+.vc-header {
+	background-color: #daac00;
+
+	& .container {
+		display: flex;
+		justify-content: space-between;
+		height: 120px;
+		align-items: center;
+		padding: 0 50px;
+	}
+
+	& .vc-menu {
+		display: flex;
+		align-items: center;
+		list-style: none;
+		justify-content: space-around;
+		padding: 0;
+
+		&__link {
+			text-decoration: none;
+			font-family: 'Poppins', sans-serif;
+			font-size: 1.823125rem;
+			color: white;
+
+		}
+
+
+	}
+
+}
+
+.header-form {
 	display: flex;
-	align-items: center;
-	list-style: none;
+
+	& input {
+		height: 50px;
+		background-color: #fcc302;
+		border: none;
+		color: white;
+		font-size: 1.301875rem;
+		padding-left: 15px;
+
+		&::placeholder {
+			color: white;
+			font-size: 1.301875rem;
+			padding-left: 15px;
+		}
+	}
+
+	& button {
+		height: 50px;
+		width: 70px;
+		background-color: #00bec9;
+		border: none;
+	}
 }
 
-.ba-menu__link{
-	color: inherit;
-	text-decoration: none;
+.vc-menu__item+.vc-menu__item {
+	padding-left: 30px;
 }
 
-.btn{
-	background: $primaryColor;
-	min-width: 100px;
-	padding: 0 1em;
+//========= BANNER =======//
 
-	&:hover{
-		@include buttonHover;
+.vc-banner {
+	background-color: #fcc302;
+
+	& .container {
+		display: flex;
+		padding-top: 90px;
+	}
+
+	&-wrapper {
+
+		width: 60%;
+		float: left;
+	}
+
+	&-title {
+		font-size: 4.166875rem;
+		color: white;
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 400;
+	}
+
+	&-paragraph {
+		font-size: 1.823125rem;
+		color: white;
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 400;
 	}
 }

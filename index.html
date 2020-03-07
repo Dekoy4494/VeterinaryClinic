@@ -1,46 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ba-starter</title>
+    <title>Veterinarian Clinic</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/app.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
 </head>
+
 <body>
 
-    <header class="ba-header">
+    <header class="vc-header">
         <div class="container">
 
-            <a href="#" class="ba-logo"></a>
+            <a href="#" class="vc-logo">
+                <img src="img/logo.png" alt="">
+            </a>
 
             <nav>
-                <ul class="ba-menu">
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 1</a>
+                <ul class="vc-menu">
+                    <li class="vc-menu__item">
+                        <a href="#" class="vc-menu__link">Home</a>
                     </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 2</a>
+                    <li class="vc-menu__item">
+                        <a href="#" class="vc-menu__link">About</a>
                     </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 3</a>
+                    <li class="vc-menu__item">
+                        <a href="#" class="vc-menu__link">Service</a>
                     </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item 4</a>
+                    <li class="vc-menu__item">
+                        <a href="#" class="vc-menu__link">Contact</a>
                     </li>
                 </ul>
             </nav>
+
+            <form class="header-form">
+                <input type="text" class="header-input" placeholder="Search...">
+                <button class="header-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
 
         </div>
     </header>
 
     <main>
-        <section class="ba-section">
+        <section class="vc-banner">
             <div class="container">
+                <div class="vc-banner-wrapper">
+                    <h1 class="vc-banner-title">
+                        First I wanted to be
+                        a veterinarian
+                    </h1>
+                    <p class="vc-banner-paragraph">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ipsum amet iusto, totam
+                        consequatur illo quisquam, est non explicabo omnis quo. Vero ea nesciunt incidunt accusamus
+                        nobis iusto hic molestias.
+                    </p>
+                    <div class="vc-banner-btns">
+                        <button class="btn_banner">
+                            Contact Us
+                        </button>
+                        <button class="btn_banner">
+                            Our Service
+                        </button>
+                    </div>
+                </div>
+                <div class="vc-banner-image">
+                    <img src="img/Place Your Image Here (Double Click to Edit).png" alt="dog">
+                </div>
 
             </div>
         </section>
@@ -49,6 +82,11 @@
     <footer class="ba-footer">
         <div class="container"></div>
     </footer>
-    
+
+
+
+
+    <script src="https://use.fontawesome.com/e4708d28ef.js"></script>
 </body>
+
 </html>
