@@ -2,17 +2,17 @@
   box-sizing: border-box; }
 
 .container {
-  max-width: 1170px;
+  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px; }
+  padding: 0 140px; }
 
 /* Ba-grid  */
 .ba-row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px; }
+  margin-left: -140px;
+  margin-right: -140px; }
 
 .ba-row + .ba-row {
   margin-top: 1rem; }
@@ -77,8 +77,7 @@
     display: flex;
     justify-content: space-between;
     height: 120px;
-    align-items: center;
-    padding: 0 50px; }
+    align-items: center; }
   .vc-header .vc-menu {
     display: flex;
     align-items: center;
@@ -109,6 +108,8 @@
     width: 70px;
     background-color: #00bec9;
     border: none; }
+    .header-form button i {
+      color: white; }
 
 .vc-menu__item + .vc-menu__item {
   padding-left: 30px; }
@@ -119,6 +120,7 @@
     display: flex;
     padding-top: 90px; }
   .vc-banner-wrapper {
+    margin: 70px 30px 170px 0;
     width: 60%;
     float: left; }
   .vc-banner-title {
@@ -126,10 +128,30 @@
     color: white;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 400; }
+    font-weight: 500;
+    margin: 0;
+    line-height: 70px; }
   .vc-banner-paragraph {
     font-size: 1.823125rem;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 400; }
+    font-weight: 400;
+    margin: 50px 0;
+    line-height: 33px; }
+  .vc-banner__btn {
+    width: 180px;
+    height: 70px;
+    background-color: #fcc302;
+    border: 4px solid white;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 1.301875rem;
+    font-weight: 500; }
+    .vc-banner__btn:hover {
+      background-color: #00bec9;
+      border: none; }
+  .vc-banner__btn + .vc-banner__btn {
+    margin-left: 36px; }
