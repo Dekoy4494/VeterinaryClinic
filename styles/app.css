@@ -142,6 +142,8 @@
   .vc-banner__btn {
     width: 180px;
     height: 70px;
+    padding: 20px 28px;
+    text-decoration: none;
     background-color: #fcc302;
     border: 4px solid white;
     border-radius: 10px;
@@ -152,7 +154,7 @@
     font-weight: 500; }
     .vc-banner__btn:hover {
       background-color: #00bec9;
-      border: none; }
+      border: 4px solid #fcc302; }
   .vc-banner__btn + .vc-banner__btn {
     margin-left: 36px; }
 
@@ -160,7 +162,7 @@
   background-color: white; }
   .vc-animals .container {
     display: flex;
-    padding-top: 90px; }
+    padding-top: 130px; }
   .vc-animals-wrapper {
     margin: 70px 33px 170px 0;
     width: 60%;
@@ -203,6 +205,100 @@
     left: 198px;
     bottom: 190px;
     padding: 0; }
+    .vc-animals_btn-play:hover {
+      transform: scale(1.5); }
+  .vc-animals__btn {
+    width: 180px;
+    height: 70px;
+    padding: 20px 28px;
+    text-decoration: none;
+    background-color: #fcc302;
+    border: 4px solid #fcc302;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 1.301875rem;
+    font-weight: 500; }
+    .vc-animals__btn:hover {
+      background-color: #00bec9;
+      border: 4px solid #00bec9; }
+
+.vc-services {
+  background-color: #daac00;
+  color: white;
+  font-family: 'Poppins', sans-serif; }
+  .vc-services_title-wrapper {
+    text-align: center;
+    padding-top: 100px; }
+  .vc-services-title {
+    font-size: 4.6875rem;
+    font-weight: 700;
+    margin: 0; }
+  .vc-services-subtitle {
+    font-size: 2.083125rem; }
+  .vc-services-cardsinfo {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 50px; }
+  .vc-services-card-title {
+    font-size: 2.34375rem;
+    font-weight: 500; }
+  .vc-services-card-subtitle {
+    font-size: 1.5625rem;
+    font-weight: 400; }
+
+.vc-animals {
+  background-color: white; }
+  .vc-animals .container {
+    display: flex;
+    padding-top: 130px; }
+  .vc-animals-wrapper-rigth {
+    margin: 70px 0px 170px 0;
+    width: 60%;
+    float: left;
+    text-align: right; }
+  .vc-animals-title {
+    font-size: 3.125rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+    line-height: 70px; }
+  .vc-animals-paragraph {
+    font-size: 1.823125rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 50px 0;
+    line-height: 33px; }
+  .vc-animals-image-rigth {
+    height: 100%;
+    position: relative;
+    -webkit-box-shadow: 140px 140px 0px -100px #fcc302;
+    -moz-box-shadow: 140px 140px 0px -100px #fcc302;
+    box-shadow: 140px 140px 0px -100px #fcc302; }
+    .vc-animals-image-rigth img {
+      display: block; }
+    .vc-animals-image-rigth:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0px;
+      bottom: 0px;
+      background-color: rgba(252, 195, 2, 0.3); }
+  .vc-animals_btn-play {
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    position: absolute;
+    left: 198px;
+    bottom: 190px;
+    padding: 0; }
+    .vc-animals_btn-play:hover {
+      transform: scale(1.5); }
   .vc-animals__btn {
     width: 180px;
     height: 70px;
@@ -216,4 +312,31 @@
     font-weight: 500; }
     .vc-animals__btn:hover {
       background-color: #00bec9;
-      border: none; }
+      border: 4px solid #00bec9; }
+
+.vc-sellingpets {
+  background-color: #daac00;
+  color: white;
+  font-family: 'Poppins', sans-serif; }
+  .vc-sellingpets_title-wrapper {
+    text-align: center;
+    padding-top: 100px; }
+  .vc-sellingpets-title {
+    font-size: 4.6875rem;
+    font-weight: 700;
+    margin: 0; }
+  .vc-sellingpets-subtitle {
+    font-size: 2.083125rem; }
+  .vc-sellingpets-cardsinfo {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 50px; }
+  .vc-sellingpets-card-title {
+    font-size: 2.34375rem;
+    font-weight: 500; }
+    .vc-sellingpets-card-title s {
+      padding-right: 30px; }
+  .vc-sellingpets-card-subtitle {
+    font-size: 1.5625rem;
+    font-weight: 400; }

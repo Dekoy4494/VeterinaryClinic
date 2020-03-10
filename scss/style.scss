@@ -104,6 +104,8 @@
 	&__btn {
 		width: 180px;
 		height: 70px;
+		padding: 20px 28px;
+		text-decoration: none;
 		background-color: #fcc302;
 		border: 4px solid white;
 		border-radius: 10px;
@@ -115,7 +117,7 @@
 
 		&:hover {
 			background-color: #00bec9;
-			border: none;
+			border: 4px solid #fcc302;;
 		}
 
 	}
@@ -131,12 +133,11 @@
 
 	& .container {
 		display: flex;
-		padding-top: 90px;
+		padding-top: 130px;
 	}
 
 	&-wrapper {
 		margin: 70px 33px 170px 0;
-
 		width: 60%;
 		float: left;
 	}
@@ -190,6 +191,145 @@
 		left: 198px;
 		bottom: 190px;
 		padding: 0;
+
+		&:hover {
+			transform: scale(1.5);
+		}
+	}
+
+	&__btn {
+		width: 180px;
+		height: 70px;
+		padding: 20px 28px;
+		text-decoration: none;
+		background-color: #fcc302;
+		border: 4px solid #fcc302;
+		border-radius: 10px;
+		color: white;
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-size: 1.301875rem;
+		font-weight: 500;
+
+		&:hover {
+			background-color: #00bec9;
+			border: 4px solid #00bec9;
+		}
+
+	}
+}
+
+//========SERVICES =======//
+.vc-services {
+	background-color: #daac00;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	&_title-wrapper{
+		text-align: center;
+		padding-top: 100px;
+
+		
+		
+	}
+
+	&-title {
+		font-size: 4.6875rem;
+		font-weight: 700;
+		margin: 0;
+	}
+
+	&-subtitle{
+		font-size: 2.083125rem;
+	}
+
+	&-cardsinfo{
+		display: flex;
+		text-align: center;
+		justify-content: space-around;
+		padding-bottom: 50px;
+	}
+
+	&-card-title{
+		font-size: 2.34375rem;
+		font-weight: 500;
+	}
+
+	&-card-subtitle{
+		font-size: 1.5625rem;
+		font-weight: 400;
+	}
+
+}
+
+//======= ANIMALS-RIGTHSIDE======//
+.vc-animals {
+	background-color: white;
+
+	& .container {
+		display: flex;
+		padding-top: 130px;
+	}
+
+	&-wrapper-rigth {
+		margin: 70px 0px 170px 0;
+		width: 60%;
+		float: left;
+		text-align: right;
+	}
+
+	&-title {
+		font-size: 3.125rem;
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 500;
+		margin: 0;
+		line-height: 70px;
+	}
+
+	&-paragraph {
+		font-size: 1.823125rem;
+		font-family: 'Poppins', sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		margin: 50px 0;
+		line-height: 33px;
+	}
+
+	&-image-rigth {
+		height: 100%;
+		position: relative;
+
+		-webkit-box-shadow: 140px 140px 0px -100px rgba(252, 195, 2, 1);
+		-moz-box-shadow: 140px 140px 0px -100px rgba(252, 195, 2, 1);
+		box-shadow: 140px 140px 0px -100px rgba(252, 195, 2, 1);
+
+		& img {
+			display: block;
+		}
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0px;
+			bottom: 0px;
+			background-color: rgba(252, 195, 2, .3);
+		}
+	}
+
+	&_btn-play {
+		border: none;
+		border-radius: 40px;
+		outline: none;
+		position: absolute;
+		left: 198px;
+		bottom: 190px;
+		padding: 0;
+
+		&:hover {
+			transform: scale(1.5);
+		}
 	}
 
 	&__btn {
@@ -206,8 +346,50 @@
 
 		&:hover {
 			background-color: #00bec9;
-			border: none;
+			border: 4px solid #00bec9;
 		}
 
 	}
+}
+
+//=======SELLING PETS======//
+.vc-sellingpets {
+	background-color: #daac00;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+	&_title-wrapper{
+		text-align: center;
+		padding-top: 100px;
+	}
+
+	&-title {
+		font-size: 4.6875rem;
+		font-weight: 700;
+		margin: 0;
+	}
+
+	&-subtitle{
+		font-size: 2.083125rem;
+	}
+
+	&-cardsinfo{
+		display: flex;
+		text-align: center;
+		justify-content: space-around;
+		padding-bottom: 50px;
+	}
+
+	&-card-title{
+		font-size: 2.34375rem;
+		font-weight: 500;
+		& s {
+			padding-right: 30px;
+		}	
+	}
+
+	&-card-subtitle{
+		font-size: 1.5625rem;
+		font-weight: 400;
+	}
+
 }
