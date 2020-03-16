@@ -267,3 +267,46 @@
   .vc-sellingpets-card-subtitle {
     font-size: 1.5625rem;
     font-weight: 400; }
+  .vc-sellingpets-link {
+    text-decoration: none;
+    color: white;
+    background-color: #00bec9;
+    padding: 15px 46px;
+    border-radius: 40px;
+    font-size: 1.5625rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500; }
+
+.vc-team {
+  background-color: white;
+  font-family: 'Poppins', sans-serif; }
+  .vc-team_title-wrapper {
+    text-align: center;
+    padding-top: 100px; }
+  .vc-team-title {
+    font-size: 4.6875rem;
+    font-weight: 700;
+    margin: 0; }
+  .vc-team-subtitle {
+    font-size: 2.083125rem; }
+  .vc-team-cardsinfo {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-bottom: 50px; }
+  .vc-team-card-title {
+    font-size: 2.34375rem;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 0; }
+  .vc-team-card-subtitle {
+    font-size: 1.5625rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0; }
+  .vc-team-social {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: center; }
